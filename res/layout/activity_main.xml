@@ -1,0 +1,56 @@
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+   
+   <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+   <TextView
+      android:text="Calculate Distance X "
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1" 
+      android:layout_marginTop="40dp"
+      />
+ 
+   </TableRow>
+   
+   <TableRow>
+   <TextView
+      android:text="Enter Height"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1" />
+   <EditText
+       android:id="@+id/calHeight"
+      android:width="200px"
+      android:inputType="number"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+     />
+   </TableRow>
+   
+   <TableRow>
+   </TableRow>
+   
+   <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+   </TableRow>
+   
+   <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+   <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+   <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Calculate X"
+     android:id="@+id/button1"
+      android:layout_column="2" />
+   </TableRow>
+
+</TableLayout>
